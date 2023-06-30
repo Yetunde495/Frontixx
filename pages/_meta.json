@@ -1,5 +1,15 @@
 {
-  "index": "Introduction",
+  "index": {
+    "title": "homepage",
+    "theme": {
+      "layout": "raw",
+      "typesetting": "article"
+    }
+  },
+  "docs": {
+    "title": "Docs",
+    "type": "page"   
+  },
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
   "about": {

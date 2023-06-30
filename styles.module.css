@@ -1,0 +1,36 @@
+.main {
+  min-height: 100vh;
+  padding: 3%;
+}
+.main h1{
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: -.015em;
+  line-height: 1.2;
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+    border:1px solid red;
+    /* Add more styles as needed */
+  }
+
+@media (max-width:650px) {
+  .main {
+    padding-top: 2.8rem;
+  }
+  .main h1 {
+    font-size: 1.7rem;
+    letter-spacing: -.01em;
+    line-height: 2rem;
+  }
+}
+@media (min-width:651px) and (max-width:960px) {
+  .main h1 {
+    font-size: 2rem;
+    letter-spacing: -.01em;
+    
+  }
+}
