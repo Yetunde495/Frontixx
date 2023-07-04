@@ -1,0 +1,17 @@
+{
+    "index": {
+      "title": "Blog",
+      "theme": {
+        "layout": "raw"
+      }
+
+    },
+    "*": {
+      "type":"page",
+      "theme": {
+        "layout": "raw"
+      }
+    }
+    
+
+}

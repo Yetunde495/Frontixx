@@ -1,0 +1,93 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 22rem;
+    --tw-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+}
+ .imgDiv {
+    flex-shrink: 0;
+}
+.secondImageDiv {
+    position: relative;
+    bottom: 56.25%;
+}
+.thirdImageDiv {
+    position: absolute;
+    inset: 0;
+}
+ .img {
+    border-width: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+ .textDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+    flex: 1 1;
+    padding: 1.5rem;
+}
+.secondTextDiv {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1; 
+}
+.text {
+    --tw-text-opacity: 1;
+    color: rgba(17,24,39,var(--tw-text-opacity));
+    font-weight: 600;
+    overflow-wrap: break-word;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem; 
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+}
+.secondTextDivLink  {
+   display: block; 
+   text-decoration: none;
+}
+.secondTextDivLink:hover  {
+    text-decoration: underline;
+ }
+  .spanDiv {
+    margin-top: auto;
+ }
+ .secondSpanDiv {
+    margin-left: 0.25rem;
+    gap:0.25rem;
+    display: flex;
+ }
+ .span {
+    --tw-text-opacity: 1;
+    color: rgba(31,41,55,var(--tw-text-opacity));
+    line-height: 1rem;
+    font-weight: 500;
+    font-size: .75rem;
+    line-height: 1rem;
+    padding: 0.125rem 0.625rem;
+    background-color: rgba(254,242,242,var(--tw-bg-opacity));
+    border-radius: 9999px;
+    align-items: center;
+    display: inline-flex;
+ }
+ @media (min-width: 768px){
+     .text {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    }
+    }
+    
+   

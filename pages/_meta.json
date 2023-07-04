@@ -10,8 +10,14 @@
     "title": "Docs",
     "type": "page"   
   },
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "blog": {
+    "title": "Blog",
+    "type": "page",
+    "theme": {
+      "layout": "raw",
+      "typesetting": "article"
+    }  
+  },
   "about": {
     "title": "About",
     "type": "page"
